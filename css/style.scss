@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$bgColor: #3a6e83;
+
+header {
+  height: 100px;
+  background-color: $bgColor;
+  display: flex;
+  align-items: center;
+}
+// .sticky {
+//   position: fixed;
+//   top: 0;
+//   width: 100%;
+// }
+
+// .sticky + .content {
+//   padding-top: 102px;
+// }
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+}
+
+.menu__list-item {
+    padding-left: 20px;
+    font-size: 20px;
+}
