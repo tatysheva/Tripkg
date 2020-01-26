@@ -7,10 +7,7 @@
 $bgColor: #3a6e83;
 
 header {
-  height: 100px;
   background-color: $bgColor;
-  display: flex;
-  align-items: center;
 }
 // .sticky {
 //   position: fixed;
@@ -23,21 +20,62 @@ header {
 // }
 
 .nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 200px;
 }
 
 .menu {
-    display: flex;
-    list-style: none;
-    a {
-        text-decoration: none;
-        color: #ffffff;
-    }
+  display: flex;
+  list-style: none;
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
 }
 
 .menu__list-item {
-    padding-left: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.owl-carousel {
+  img {
+    height: calc(100vh - 80px);
+    position: relative;
+  }
+}
+
+.owl-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 25%;
+  right: 25%;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero-content {
+  position: absolute;
+  top: 155px;
+  left: 50px;
+  z-index: 1;
+  color: #fff;
+}
+
+.hero-title {
+  font-family: "Courgette", cursive;
+  font-size: 54px;
+}
+
+.hero-subtitle {
+    padding-top: 10px;
     font-size: 20px;
 }
