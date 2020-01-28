@@ -142,3 +142,55 @@ header {
     margin-right: 6px;
   }
 }
+
+.about__title {
+  text-align: center;
+  font-size: 44px;
+  color: #3a6e83;
+  text-transform: uppercase;
+  padding-bottom: 50px;
+}
+
+.about-company {
+  padding-bottom: 50px;
+}
+
+.about-company__title {
+  font-size: 34px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  letter-spacing: 1.6px;
+}
+
+.about-company__description {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 1.6px;
+  color: #797979;
+}
+
+.about-company__list {
+  margin-left: 30px;
+  padding-top: 20px;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 1.6px;
+  color: #797979;
+}
+
+.about-kg__title {
+  font-size: 44px;
+  text-align: center;
+  color: #3a6e83;
+  font-family: "Courgette", cursive;
+  padding-bottom: 50px;
+}
+
+video {
+  width: 100%;
+}
+
+.about-kg__content {
+  font-size: 24px;
+  padding-left: 50px;
+}
