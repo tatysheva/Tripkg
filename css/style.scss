@@ -203,11 +203,11 @@ video {
 .contact {
   background: $bgColor;
   color: #ffffff;
-  padding-top: 50px;
+  padding: 50px 0 20px;
+  text-align: center;
 }
 
 .contact-title {
-  text-align: center;
   letter-spacing: 1.6px;
   font-size: 44px;
   font-weight: 300;
@@ -216,6 +216,7 @@ video {
 .social-network {
   display: flex;
   justify-content: center;
+  padding-bottom: 30px;
 }
 
 .contact-list {
@@ -236,5 +237,23 @@ video {
     &:hover {
       opacity: 0.5;
     }
+  }
+}
+
+.contact-item {
+  font-size: 20px;
+  padding-bottom: 30px;
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  &:hover {
+    text-decoration: underline;
+  }
+  .fas {
+    padding-right: 10px;
+  }
+  .far {
+    padding-right: 30px;
   }
 }
