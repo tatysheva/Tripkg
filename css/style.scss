@@ -16,15 +16,15 @@ body {
 header {
   background-color: $bgColor;
 }
-// .sticky {
-//   position: fixed;
-//   top: 0;
-//   width: 100%;
-// }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
-// .sticky + .content {
-//   padding-top: 102px;
-// }
+.sticky + body {
+  padding-top: 102px;
+}
 
 .nav {
   height: 80px;

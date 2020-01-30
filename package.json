@@ -4,7 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel *.html",
+    "build": "rm -rf dist && parcel build *.html --no-source-maps --no-content-hash"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +16,7 @@
     "sass": "^1.25.0"
   },
   "dependencies": {
+    "include": "^1.1.0",
     "jquery": "^3.4.1",
     "owl.carousel": "^2.3.4"
   }
